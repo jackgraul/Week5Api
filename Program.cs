@@ -14,6 +14,6 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.MapGet("/hello", () => "Hello from your Google Cloud API running .NET 9");
+app.MapGet("/hello", () => "Hello from your Google Cloud API running .NET 9 (API updated through CI/CD)");
 
 app.Run();
